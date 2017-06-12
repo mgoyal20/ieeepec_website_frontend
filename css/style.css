@@ -41,7 +41,7 @@ body{
 	font-weight: 400;
 	font-size: 12px;
 	color: #000;
-	background:#1B1B1B;
+	background:#069;
 	height:100%;
 	text-align:center;
 }
@@ -278,7 +278,7 @@ blockquote p {
 	display:none;
 }
 .dark-bg {
-	background:#1B1B1B;
+	background:#069;
 }
 .dark-bg .overlay {
 	opacity:0.7;
@@ -648,7 +648,7 @@ header{
 	z-index:20;
 	height:80px;
 	width:70%;
-	background:#000;
+	background:#069;
 	-webkit-transform: translate3d(0,0,0);
 }
 .fw-head {
@@ -2549,7 +2549,7 @@ footer.fixed-footer {
 	left:0;
 	width:80px;
 	height:100%;
-	background:#000;
+	background:#069;
 	z-index:6;
 }
 .height-emulator {
@@ -2591,7 +2591,7 @@ footer.fixed-footer .footer-social li a:hover {
 	left:0;
 	width:100%;
 	padding:90px 20px 90px 80px;
-	background:#1B1B1B;
+	background:#335066; /*#08c*/
 	z-index:2;
 }
 .content-footer:before {
