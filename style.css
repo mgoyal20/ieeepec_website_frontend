@@ -648,7 +648,7 @@ header{
 	z-index:20;
 	height:80px;
 	width:70%;
-	background:#069;
+	background:rgba(255, 255, 255, 0.5);
 	-webkit-transform: translate3d(0,0,0);
 }
 .fw-head {
@@ -715,7 +715,7 @@ nav li ul {
 	padding-bottom: 20px;
 	left: 0;
 	z-index: 0;
-	background: #006699;
+	background: rgba(0,0,0,0.91);
 	transition: all .2s ease-in-out;
 }
 nav li ul:before {
@@ -728,7 +728,7 @@ nav li ul:before {
 	height:1px;
 }
 nav li:hover > ul {
-	opacity: 0.85;
+	opacity: 1;
 	visibility: visible;
 	margin: 0;
 }
