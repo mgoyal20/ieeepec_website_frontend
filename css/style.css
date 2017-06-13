@@ -715,7 +715,7 @@ nav li ul {
 	padding-bottom: 20px;
 	left: 0;
 	z-index: 0;
-	background: rgba(0,0,0,0.91);
+	background: #006699;
 	transition: all .2s ease-in-out;
 }
 nav li ul:before {
@@ -728,7 +728,7 @@ nav li ul:before {
 	height:1px;
 }
 nav li:hover > ul {
-	opacity: 1;
+	opacity: 0.85;
 	visibility: visible;
 	margin: 0;
 }
@@ -3496,7 +3496,7 @@ article .section-title {
 	top:60px;
 	visibility:hidden;
 	width:70%;
-	background:#000;
+	background:#006699;
 	height:0;
 	overflow:hidden;
 }
@@ -3518,7 +3518,7 @@ article .section-title {
 }
 .share-inner , .share-container , .show-share {
 	-webkit-transition: all 400ms linear;
-    -moz-transition: all 400ms linear;
+    -moz-transition: all 400ms vertical;
     -o-transition: all 400ms linear;
     -ms-transition: all 400ms linear;
     transition: all 400ms linear;
@@ -3747,11 +3747,12 @@ header {
 	position:absolute;
 	top:60px;
 	left:0;
+  opacity:0.80;
 	width:100%;
-	background:#000;
+	background:#006699;
 	padding:30px 0 30px 30px;
 	display:none;
-	height:300px;
+	height:250px;
 	overflow:auto;
 }
 nav ul li  , nav ul li ul li , nav li ul li > ul    {
